@@ -18,6 +18,7 @@ onEvent("home5", "click", function( ) {
 });
 onEvent("learnb", "click", function( ) {
   setScreen("what");
+  playSound("assets/MusMus-BGM-116.mp3");
 });
 onEvent("orange", "click", function( ) {
   setScreen("layers");
